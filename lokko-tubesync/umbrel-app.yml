@@ -1,0 +1,36 @@
+manifestVersion: 1
+id: lokko-tubesync
+category: media
+name: TubeSync
+icon: https://raw.githubusercontent.com/meeb/tubesync/main/tubesync/common/static/images/tubesync.png
+version: "0.7.7"
+tagline: This is a preview release of TubeSync, it may contain bugs but should be usable
+description: >-
+  Lighting fast with a slick design, Kavita is a rocket fueled self-hosted digital library which supports a vast array of file formats. Install to start reading and share your server with your friends.
+
+  Features :
+    TubeSync is a PVR (personal video recorder) for YouTube. Or, like Sonarr but for YouTube (with a built-in download client). It is designed to synchronize channels and playlists from YouTube to local directories and update your media server once media is downloaded.
+
+If you want to watch YouTube videos in particular quality or settings from your local media server, then TubeSync is for you. Internally, TubeSync is a web interface wrapper on yt-dlp and ffmpeg with a task scheduler.
+
+There are several other web interfaces to YouTube and yt-dlp all with varying features and implementations. TubeSync's largest difference is full PVR experience of updating media servers and better selection of media formats. Additionally, to be as hands-free as possible, TubeSync has gradual retrying of failures with back-off timers so media which fails to download will be retried for an extended period making it, hopefully, quite reliable.
+
+releaseNotes: >-
+  
+developer: Lokko
+website: https://kavitareader.com
+dependencies: []
+repo: https://github.com/Kareadita/Kavita
+support: https://www.kavitareader.com/#support
+port: 5012
+gallery:
+  - https://www.kavitareader.com/img/features/homepage.PNG
+  - https://www.kavitareader.com/img/features/seriesdetail.PNG
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+permissions:
+  - STORAGE_DOWNLOADS
+submitter: buttonbeaver
+submission: https://github.com/buttonbeaver/beaver-umbrel-app-store
